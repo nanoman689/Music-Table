@@ -1,0 +1,87 @@
+* {
+    font-family: sans-serif;
+}
+
+.music-chart {
+    background-color: rgba(245,245,245,1);
+    width: 97%;
+    margin: 0 auto;
+}
+
+.caption {
+    text-transform: uppercase;
+    color: rgba(119,113,133,1);
+    background-color: rgba(250, 251, 251, 1);
+    width: 100%;
+    height: 81px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+}
+
+.music-table {
+    width: 100%;
+    height: 240px;
+    background-color: rgba(255,255,255,1);
+    border-collapse: collapse;
+    display: table;
+    border: solid 3px rgba(240,240,240,1);
+    position: relative;
+}
+
+.row:nth-child(3){
+    background-color: rgba(250, 251, 251, 1);
+}
+
+.header {
+    text-transform: uppercase;
+    display: table-header-group;
+    font-size: 15px;
+    font-weight: 800;
+    vertical-align: middle;
+    border: solid 3px rgba(240,240,240,1);
+}
+
+.header .cell.signer {
+    color: rgba(119,113,133,1);    
+}
+
+.row {
+    display: table-row;
+    height:40px;
+}
+
+.cell.number,
+.cell.title,
+.cell.signer,
+.cell.genre,
+.cell.link {
+    display: table-cell;
+    height:38px;
+}
+
+.cell.number {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cell.title {
+    text-align: left;
+}
+
+.cell.singer {
+    color: rgba(69,191,163,1);
+    text-align: center;
+}
+
+.cell.genre {
+    text-align: center;
+}
+
+.cell.link {
+    color: rgba(69,191,163,1);
+    text-align: right;
+}
